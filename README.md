@@ -11,3 +11,4 @@ Global Map data archives support application using the UN Vector Tile Toolkit
 | iso3cd | ISO 3166-1 3 character code in upper case letters |
 | name | country name, not necessarily official |
 | versions | Global Map archive data versions x 10, e.g., 1.0 => 10 |
+
