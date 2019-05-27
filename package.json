@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/globalmaps/entries/issues"
   },
-  "homepage": "https://github.com/globalmaps/entries#readme"
+  "homepage": "https://github.com/globalmaps/entries#readme",
+  "dependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "babelify": "^10.0.0",
+    "i18n-iso-countries": "^4.1.0"
+  }
 }
