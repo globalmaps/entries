@@ -6,7 +6,7 @@ var data = require('./entries.json');
 var colors = {
   text: ['rgb', 255, 255, 255],
   active: ['rgb', 91, 146, 229],
-  inactive: ['rgb', 250, 250, 250]
+  inactive: ['rgb', 175, 226, 254]
 };
 
 var versionString = function versionString(n) {

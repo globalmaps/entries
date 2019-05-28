@@ -3,7 +3,7 @@ const data = require('./entries.json')
 const colors = {
   text: ['rgb', 255, 255, 255],
   active: ['rgb', 91, 146, 229],
-  inactive: ['rgb', 250, 250, 250]
+  inactive: ['rgb', 175, 226, 254]
 }
 
 const versionString = n => {
