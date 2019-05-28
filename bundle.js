@@ -91,7 +91,7 @@ fetch(window.confirm('Are you using TabularMaps?') ? 'https://tabularmaps.github
       for (var _iterator2 = r.versions[Symbol.iterator](), _step2; !(_iteratorNormalCompletion2 = (_step2 = _iterator2.next()).done); _iteratorNormalCompletion2 = true) {
         var version = _step2.value;
         var url = 'https://github.com/globalmaps/gm' + r.iso2cd + version + '/archive/master.zip';
-        window.confirm('Do you download Global Map archive data for ' + "".concat(f.properties.maplab, " (version ").concat(versionString(version), ")?")) ? window.open(url) : null;
+        window.confirm('Woudl you like to download Global Map archive data for ' + "".concat(f.properties.maplab, " (version ").concat(versionString(version), ")?")) ? window.open(url) : null;
       }
     } catch (err) {
       _didIteratorError2 = true;

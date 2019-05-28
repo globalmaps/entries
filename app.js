@@ -77,7 +77,7 @@ fetch(
     for (let version of r.versions) {
       const url = 'https://github.com/globalmaps/gm'
         + r.iso2cd + version + '/archive/master.zip'
-      window.confirm('Do you download Global Map archive data for ' + 
+      window.confirm('Woudl you like to download Global Map archive data for ' + 
         `${f.properties.maplab} (version ${versionString(version)})?`)
         ? window.open(url)
         : null
