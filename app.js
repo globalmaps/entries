@@ -45,8 +45,7 @@ fetch(
     maxZoom: 2,
     style: style,
     attributionControl: true,
-    hash: true,
-    renderWorldCopies: false
+    hash: true
   })
 
   map.on('mousemove', (e) => {

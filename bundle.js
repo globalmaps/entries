@@ -56,8 +56,7 @@ fetch(window.confirm('Are you using TabularMaps?') ? 'https://tabularmaps.github
     maxZoom: 2,
     style: style,
     attributionControl: true,
-    hash: true,
-    renderWorldCopies: false
+    hash: true
   });
   map.on('mousemove', function (e) {
     var f = map.queryRenderedFeatures(e.point)[0];
